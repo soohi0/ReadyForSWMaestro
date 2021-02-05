@@ -24,5 +24,8 @@
     <ClCompile Include="1003_피보나치함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2630_색종이만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
