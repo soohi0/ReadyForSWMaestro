@@ -93,5 +93,11 @@
     <ClCompile Include="DP_2133_타일채우기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="graphs_1005_ACMCraft.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_2156_포도주시식.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
