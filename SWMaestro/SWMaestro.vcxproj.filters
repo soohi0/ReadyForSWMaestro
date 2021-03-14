@@ -99,5 +99,8 @@
     <ClCompile Include="DP_2156_포도주시식.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DP_2240_자두나무.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
