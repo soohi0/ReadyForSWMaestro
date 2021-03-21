@@ -105,5 +105,11 @@
     <ClCompile Include="구현_4673_셀프넘버.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="socar1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kerly1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
