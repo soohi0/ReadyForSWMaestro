@@ -95,13 +95,13 @@ int main()
 				cout << endl;*/
 			}
 
-			if (numplus + 1 > 1000000)
-			{
-				numplus = 1000000;
-				numplusarr = { 0, 0, 0, 0, 0, 0, 1 };
-			}
-			else
-			{
+			//if (numplus + 1 > 1000000)
+			//{
+				//numplus = 1000000;
+				//numplusarr = { 0, 0, 0, 0, 0, 0, 1 };
+			//}
+			//else
+			//{
 				numplus = numplus + 1;
 				pluscnt++;
 				numplusarr = devideint(numplus);
@@ -111,17 +111,33 @@ int main()
 				}
 				cout << endl;*/
 
-			}
+			//}
 		} while (isthereWrongNum(numsubarr, wrongNum) && isthereWrongNum(numplusarr, wrongNum));
 		if (pluscnt < subcnt)
 		{
-			count = numplus - N;
-			count += numplusarr.size();
+			int cmp1 = numplus - N + numplusarr.size();
+			int cmp2 = N - curNum;
+			if (cmp1 > cmp2)
+			{
+				count = cmp2;
+			}
+			else
+			{
+				count = cmp1;
+			}
 		}
 		else
 		{
-			count = N - numsub;
-			count += numsubarr.size();
+			int cmp1 = N - numsub + numplusarr.size();
+			int cmp2 = N - curNum;
+			if (cmp1 > cmp2)
+			{
+				count = cmp2;
+			}
+			else
+			{
+				count = cmp1;
+			}
 		}
 
 		/*for (int i = 0; i < numarr.size(); i++)
